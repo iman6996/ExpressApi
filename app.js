@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const router = require('./src/Routes/crmRoutes');
 const bodyParser = require ('body-parser');
 
+// Connexion au port 3000 pour express
 const app = express();
 const port = 3000;
 
